@@ -2,6 +2,8 @@ ul {
   list-style: none;
 }
 
+/* шапка */
+
 .header-name {
   text-decoration: none;
 }
@@ -54,6 +56,8 @@ focus {
 focus {
   color: var(--blue-text);
 }
+
+/* основной блок */
 
 .section {
   background: var(--grafite);
@@ -124,6 +128,8 @@ focus {
   color: var(--nav-text);
 }
 
+/* команда */
+
 .team {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -156,6 +162,8 @@ focus {
 
   color: var(--grey-text01);
 }
+
+/* футер */
 
 .footer {
   background: var(--grafite);
@@ -205,7 +213,7 @@ focus {
   text-decoration: none;
 }
 
-/* portfolio */
+/* портфолио основной блок*/
 
 .progects-sampie {
   font-family: Roboto, sans-serif;
