@@ -14,72 +14,91 @@
      
   
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/variables.css"> 
+    
 </head>
 <body>
     <!-- шапка -->
+    
+   
     <header class="header">
-        <nav class="navigation">
-            <a class="header-name" href="./index.html"><span class="header-web" >Web</span><span class="header-logo"> Studio </span></a>
+        <div class="conteiner main">
 
-            <ul>
-                <li><a  class="header-link" href="./index.html">Студия</a> </li>
-                <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="header-link" href="">Контакты</a></li>
+        <nav class="header-nav" >
+    
+            <a class="header-name" href="./index.html"><span class="header-web" >Web</span><span class="header-logo">Studio</span></a>
+
+            <ul class="site-nav">
+              <li class="link"><a  class="header-link" href="./index.html">Студия</a> </li> 
+                <li class="link"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="link"><a class="header-link" href="">Контакты</a></li>
             </ul>
        </nav>
-        <ul>
-            <li><a class="header-a" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-a" href="tel:+380961111111">+38 096 111 11 11 </a></li>
+      <ul class="site-contact">
+            <li class="link-a"> <a class="header-a" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="link-a"> <a class="header-a" href="tel:+380961111111">+38 096 111 11 11 </a></li>
         </ul>
+    
+    </div>
     </header>
+    
+    
     <main>
         <!-- герой -->
     
             <section class="section">
-                <h1 class="section-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <a class="section-button" href="">Заказать услугу</a>
+                <div class="conteiner">
+                <h1 class="section-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <a  href=""  class="section-button" >Заказать услугу</a>
+
+                </div>
 
             </section>
 
     <!-- основной блок -->
 
-        <section>
-         <h2 class="visually-hiden"> Характеристика</h2>
+        <section class="about">
+            <div class="conteiner">
+           <h2 class="visually-hidden"> Характеристика</h2> 
+        
         <ul class="name">
-           <li >
+           <li class="item-name">
         <h3 class="section-name">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
         <p class="name-p">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
            </li>
         
-           <li>
+           <li class="item-name">
         <h3 class="section-name">ПУНКТУАЛЬНОСТЬ</h3>
         <p class="name-p">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
            </li>
-            <li>
+            <li class="item-name">
         <h3 class="section-name">ПЛАНИРОВАНИЕ</h3>
         <p class="name-p">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
            </li>
-            <li>
+            <li class="item-name">
         <h3 class="section-name">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
         <p class="name-p">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
            </li>
        </ul>
+       </div>
         </section>
-        <section>
+        <section class="item-work">
+            <div class="conteiner">
        <h2 class="work">Чем мы занимаемся</h2>
-       <ul>
+       <ul class="work-item">
            <li class="work-img"><img src="./images/img.jpg" alt="человек за компьютером и планшетом" width="370" height="294"></li>
            <li class="work-img"><img src="./images/img-2.jpg" alt="человек с ноутбуком и телефоном" width="370" height="294"></li>
            <li class="work-img"><img src="./images/img-3.jpg" alt="человек с планшетом" width="370" height="294"></li>
        </ul>
+       </div>
         </section>
 
         <!-- команда -->
 
         <section>
+            <div class="conteiner">
             <h2 class="team">Наша команда</h2>
-            <ul>
+            <ul class="team-item">
                 <li>
                     <img class="team-img" src="./images/img-4.jpg" alt="фото работника" width="270" height="260">
                     <h4 class="team-name">Игорь Демьяненко</h4>
@@ -100,15 +119,18 @@
                     <p class="team-p">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!-- футер -->
-    
+
     <footer class="footer">
+ <section class="section-footer">
+         <div class="conteiner"> 
         <a class="footer-studio" href=""><span class="footer-web">Web</span><span >Studio</span> </a>
         <address>
-            <ul>
-        <li>
+            <ul class="address-ul">
+        <li class="address-li">
             <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
         </li>
       <li>
@@ -119,7 +141,8 @@
         </li>
         </ul>
         </address>
-
+        </div>
+</section>
     </footer>
     
 </body>
