@@ -19,14 +19,16 @@ ul {
 }
 
 /* шапка */
+
 .header {
+  border-bottom: 1px solid #eeeeee;
+  min-height: 80px;
+
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  min-height: 80px;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .header-nav,
@@ -275,6 +277,7 @@ focus {
 
 .item-work {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .conteiner-work {
@@ -323,8 +326,9 @@ h4 {
 /* наша команда */
 
 .section-team {
-  color: var(--blok-text);
-  padding-top: 188px;
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .conteiner-team {
@@ -391,22 +395,20 @@ h4 {
 
 /* футер */
 
-.section-footer {
+.footer {
+  padding: 0;
   margin-top: 0;
   padding-bottom: 60px;
-  padding-top: 94px;
+  padding-top: 60px;
+  background-color: var(--grafite);
 }
 
 .conteiner-footer {
   width: 1200px;
-  min-height: 252px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: var(--grafite);
-
-  padding-top: 60px;
 }
 
 .footer-studio .footer-web {
@@ -471,6 +473,7 @@ h4 {
 
 .section-progects {
   padding-top: 94px;
+  padding-bottom: 94px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -552,8 +555,6 @@ h4 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--nav-text);
-  margin-top: 30px;
-  padding-left: 24px;
 }
 
 .team-link {
@@ -564,13 +565,15 @@ h4 {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey-text01);
-  margin-top: 10px;
+  margin-top: 4px;
   margin-bottom: 0px;
-  padding-left: 24px;
 }
 
 .border {
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
+  margin: 0;
+  display: block;
 }
 
 .team-photo {
